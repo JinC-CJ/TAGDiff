@@ -1,0 +1,51 @@
+{
+  "os": "macOS-15.3.2-arm64-arm-64bit",
+  "python": "CPython 3.9.6",
+  "startedAt": "2025-06-28T05:18:39.578793Z",
+  "args": [
+    "--model=BertSASRec",
+    "-s",
+    "B",
+    "--ab=iids",
+    "--partition=split"
+  ],
+  "program": "/Users/jinchai/MQ/Experiment/6服务器实验/TAGDiff/main.py",
+  "codePath": "6服务器实验/TAGDiff/main.py",
+  "git": {
+    "remote": "git@github.com:JinC-CJ/Diffusion-Model-HD.git",
+    "commit": "c2963ffcef21fdeabadd937254907e3fa00d0baf"
+  },
+  "email": "chaijin818818@gmail.com",
+  "root": "/Users/jinchai/MQ/Experiment/6服务器实验/TAGDiff",
+  "host": "JINs-Laptop.local",
+  "executable": "/Users/jinchai/MQ/Experiment/.venv/bin/python",
+  "codePathLocal": "main.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "216464338944"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "216464338944"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M3",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 8,
+    "memoryGb": 8,
+    "swapTotalBytes": "17179869184",
+    "ramTotalBytes": "8589934592"
+  }
+}

@@ -1,0 +1,24 @@
+# 基础训练参数
+lr: 0.0001
+weight_decay: 0
+
+# 模型架构参数
+hidden_size: 3072
+layer_num: 1
+num_heads: 2
+dropout: 0.1
+
+# 扩散模型参数
+loss_type: l2
+w: 4
+timesteps: 200
+beta_sche: linear
+beta_start: 0.0001
+beta_end: 0.02
+ddim_step: 100
+p: 0.1
+diffuser_type: mlp1
+
+# 序列模型参数
+max_seq_length: 10
+sample_func: random

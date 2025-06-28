@@ -1,0 +1,78 @@
+[Epoch 1] Metrics: OrderedDict([('ndcg@5', 0.010701651684939861), ('ndcg@10', 0.013720902614295483), ('ndcg@20', 0.01755792461335659), ('ndcg@50', 0.024307377636432648), ('recall@5', 0.01654740609228611), ('recall@10', 0.025939177721738815), ('recall@20', 0.041592128574848175), ('recall@50', 0.07602862268686295)]), Training Time: 2.48 seconds
+[Epoch 1] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 2] Metrics: OrderedDict([('ndcg@5', 0.011908241547644138), ('ndcg@10', 0.016565604135394096), ('ndcg@20', 0.019617555662989616), ('ndcg@50', 0.025962630286812782), ('recall@5', 0.01833631470799446), ('recall@10', 0.03264758363366127), ('recall@20', 0.044722720980644226), ('recall@50', 0.07692307978868484)]), Training Time: 1.41 seconds
+[Epoch 2] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 3] Metrics: OrderedDict([('ndcg@5', 0.013113453984260559), ('ndcg@10', 0.0173017680644989), ('ndcg@20', 0.02083912491798401), ('ndcg@50', 0.027945704758167267), ('recall@5', 0.01878354139626026), ('recall@10', 0.03175313025712967), ('recall@20', 0.04561717435717583), ('recall@50', 0.0818425789475441)]), Training Time: 1.36 seconds
+[Epoch 3] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 4] Metrics: OrderedDict([('ndcg@5', 0.014243976213037968), ('ndcg@10', 0.018385322764515877), ('ndcg@20', 0.022402437403798103), ('ndcg@50', 0.02816045843064785), ('recall@5', 0.021466905251145363), ('recall@10', 0.03443649411201477), ('recall@20', 0.05053667351603508), ('recall@50', 0.07960644364356995)]), Training Time: 1.68 seconds
+[Epoch 4] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 5] Metrics: OrderedDict([('ndcg@5', 0.01591922715306282), ('ndcg@10', 0.019922280684113503), ('ndcg@20', 0.024404898285865784), ('ndcg@50', 0.030624352395534515), ('recall@5', 0.023703040555119514), ('recall@10', 0.03622540086507797), ('recall@20', 0.05411449074745178), ('recall@50', 0.08586762100458145)]), Training Time: 1.37 seconds
+[Epoch 5] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 6] Metrics: OrderedDict([('ndcg@5', 0.01813865825533867), ('ndcg@10', 0.021593332290649414), ('ndcg@20', 0.026752624660730362), ('ndcg@50', 0.032703839242458344), ('recall@5', 0.025939177721738815), ('recall@10', 0.03667262941598892), ('recall@20', 0.057245079427957535), ('recall@50', 0.0872092992067337)]), Training Time: 1.36 seconds
+[Epoch 6] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 7] Metrics: OrderedDict([('ndcg@5', 0.02175198309123516), ('ndcg@10', 0.025145521387457848), ('ndcg@20', 0.03046698123216629), ('ndcg@50', 0.03569348156452179), ('recall@5', 0.029964221641421318), ('recall@10', 0.040697675198316574), ('recall@20', 0.061717353761196136), ('recall@50', 0.08765652775764465)]), Training Time: 1.39 seconds
+[Epoch 7] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 8] Metrics: OrderedDict([('ndcg@5', 0.024477753788232803), ('ndcg@10', 0.028325017541646957), ('ndcg@20', 0.033389847725629807), ('ndcg@50', 0.038738809525966644), ('recall@5', 0.03175313025712967), ('recall@10', 0.04382826387882233), ('recall@20', 0.06395348906517029), ('recall@50', 0.0907871201634407)]), Training Time: 1.38 seconds
+[Epoch 8] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 9] Metrics: OrderedDict([('ndcg@5', 0.025254299864172935), ('ndcg@10', 0.029336437582969666), ('ndcg@20', 0.03428000956773758), ('ndcg@50', 0.040029775351285934), ('recall@5', 0.03354204073548317), ('recall@10', 0.04606439918279648), ('recall@20', 0.06574239581823349), ('recall@50', 0.09481216222047806)]), Training Time: 1.54 seconds
+[Epoch 9] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 10] Metrics: OrderedDict([('ndcg@5', 0.027229713276028633), ('ndcg@10', 0.031147852540016174), ('ndcg@20', 0.03583138808608055), ('ndcg@50', 0.0420440174639225), ('recall@5', 0.03577817603945732), ('recall@10', 0.04785330966114998), ('recall@20', 0.06618962436914444), ('recall@50', 0.09794275462627411)]), Training Time: 1.37 seconds
+[Epoch 10] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 11] Metrics: OrderedDict([('ndcg@5', 0.028331875801086426), ('ndcg@10', 0.03281261771917343), ('ndcg@20', 0.037332240492105484), ('ndcg@50', 0.04339076206088066), ('recall@5', 0.03711985796689987), ('recall@10', 0.05143112689256668), ('recall@20', 0.06932021677494049), ('recall@50', 0.10017888993024826)]), Training Time: 1.40 seconds
+[Epoch 11] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 12] Metrics: OrderedDict([('ndcg@5', 0.030826888978481293), ('ndcg@10', 0.034148506820201874), ('ndcg@20', 0.03929843753576279), ('ndcg@50', 0.04494885727763176), ('recall@5', 0.03980322182178497), ('recall@10', 0.05008944496512413), ('recall@20', 0.07066189497709274), ('recall@50', 0.09928443282842636)]), Training Time: 1.48 seconds
+[Epoch 12] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 13] Metrics: OrderedDict([('ndcg@5', 0.03218263015151024), ('ndcg@10', 0.036638230085372925), ('ndcg@20', 0.040452491492033005), ('ndcg@50', 0.04684988781809807), ('recall@5', 0.040697675198316574), ('recall@10', 0.054561715573072433), ('recall@20', 0.06976744532585144), ('recall@50', 0.10196779668331146)]), Training Time: 1.37 seconds
+[Epoch 13] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 14] Metrics: OrderedDict([('ndcg@5', 0.032308731228113174), ('ndcg@10', 0.037136949598789215), ('ndcg@20', 0.04148487746715546), ('ndcg@50', 0.04666466638445854), ('recall@5', 0.03980322182178497), ('recall@10', 0.054561715573072433), ('recall@20', 0.07155635207891464), ('recall@50', 0.09749552607536316)]), Training Time: 1.39 seconds
+Patience for 1 Times
+[Epoch 15] Metrics: OrderedDict([('ndcg@5', 0.032847605645656586), ('ndcg@10', 0.03719364479184151), ('ndcg@20', 0.04182722419500351), ('ndcg@50', 0.04675225540995598), ('recall@5', 0.041592128574848175), ('recall@10', 0.05500894412398338), ('recall@20', 0.07334525883197784), ('recall@50', 0.09838998317718506)]), Training Time: 1.73 seconds
+[Epoch 15] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 16] Metrics: OrderedDict([('ndcg@5', 0.03340616077184677), ('ndcg@10', 0.037883732467889786), ('ndcg@20', 0.04260445758700371), ('ndcg@50', 0.04664255306124687), ('recall@5', 0.042933810502290726), ('recall@10', 0.056797854602336884), ('recall@20', 0.075581394135952), ('recall@50', 0.09615384787321091)]), Training Time: 1.41 seconds
+[Epoch 16] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 17] Metrics: OrderedDict([('ndcg@5', 0.03401893004775047), ('ndcg@10', 0.03887138143181801), ('ndcg@20', 0.04292641952633858), ('ndcg@50', 0.047792378813028336), ('recall@5', 0.042933810502290726), ('recall@10', 0.057692307978868484), ('recall@20', 0.0737924873828888), ('recall@50', 0.09838998317718506)]), Training Time: 1.83 seconds
+Patience for 1 Times
+[Epoch 18] Metrics: OrderedDict([('ndcg@5', 0.03412044793367386), ('ndcg@10', 0.03884182870388031), ('ndcg@20', 0.043133679777383804), ('ndcg@50', 0.04796988144516945), ('recall@5', 0.042933810502290726), ('recall@10', 0.057245079427957535), ('recall@20', 0.07423971593379974), ('recall@50', 0.09883721172809601)]), Training Time: 1.34 seconds
+Patience for 2 Times
+[Epoch 19] Metrics: OrderedDict([('ndcg@5', 0.03484662249684334), ('ndcg@10', 0.039261527359485626), ('ndcg@20', 0.043342966586351395), ('ndcg@50', 0.04795876890420914), ('recall@5', 0.043381039053201675), ('recall@10', 0.057245079427957535), ('recall@20', 0.07334525883197784), ('recall@50', 0.09660107642412186)]), Training Time: 1.36 seconds
+[Epoch 19] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 20] Metrics: OrderedDict([('ndcg@5', 0.03447916731238365), ('ndcg@10', 0.0390346422791481), ('ndcg@20', 0.04272768273949623), ('ndcg@50', 0.04735132306814194), ('recall@5', 0.044275492429733276), ('recall@10', 0.058586761355400085), ('recall@20', 0.07334525883197784), ('recall@50', 0.09660107642412186)]), Training Time: 1.38 seconds
+[Epoch 20] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 21] Metrics: OrderedDict([('ndcg@5', 0.035244863480329514), ('ndcg@10', 0.039121244102716446), ('ndcg@20', 0.04370574280619621), ('ndcg@50', 0.047946423292160034), ('recall@5', 0.044722720980644226), ('recall@10', 0.056797854602336884), ('recall@20', 0.07513416558504105), ('recall@50', 0.09660107642412186)]), Training Time: 1.36 seconds
+[Epoch 21] Saved checkpoint to ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+[Epoch 22] Metrics: OrderedDict([('ndcg@5', 0.03509514406323433), ('ndcg@10', 0.039453186094760895), ('ndcg@20', 0.043560609221458435), ('ndcg@50', 0.04786228761076927), ('recall@5', 0.04382826387882233), ('recall@10', 0.057245079427957535), ('recall@20', 0.0737924873828888), ('recall@50', 0.09525939077138901)]), Training Time: 1.51 seconds
+Patience for 1 Times
+[Epoch 23] Metrics: OrderedDict([('ndcg@5', 0.03583779186010361), ('ndcg@10', 0.03926049917936325), ('ndcg@20', 0.04375668242573738), ('ndcg@50', 0.04817330092191696), ('recall@5', 0.044722720980644226), ('recall@10', 0.05545617267489433), ('recall@20', 0.07334525883197784), ('recall@50', 0.09525939077138901)]), Training Time: 1.37 seconds
+Patience for 2 Times
+[Epoch 24] Metrics: OrderedDict([('ndcg@5', 0.03610775247216225), ('ndcg@10', 0.03986658155918121), ('ndcg@20', 0.04413307085633278), ('ndcg@50', 0.048548270016908646), ('recall@5', 0.04382826387882233), ('recall@10', 0.05545617267489433), ('recall@20', 0.07245080173015594), ('recall@50', 0.09436493366956711)]), Training Time: 1.43 seconds
+Patience for 3 Times
+[Epoch 25] Metrics: OrderedDict([('ndcg@5', 0.035644616931676865), ('ndcg@10', 0.03978908807039261), ('ndcg@20', 0.04363926500082016), ('ndcg@50', 0.048556964844465256), ('recall@5', 0.042933810502290726), ('recall@10', 0.055903397500514984), ('recall@20', 0.07110912352800369), ('recall@50', 0.09570661932229996)]), Training Time: 1.38 seconds
+Patience for 4 Times
+[Epoch 26] Metrics: OrderedDict([('ndcg@5', 0.035655222833156586), ('ndcg@10', 0.03932133689522743), ('ndcg@20', 0.04347972571849823), ('ndcg@50', 0.047867584973573685), ('recall@5', 0.043381039053201675), ('recall@10', 0.05500894412398338), ('recall@20', 0.07155635207891464), ('recall@50', 0.0934704840183258)]), Training Time: 1.38 seconds
+Patience for 5 Times
+[Epoch 27] Metrics: OrderedDict([('ndcg@5', 0.03527184948325157), ('ndcg@10', 0.038871850818395615), ('ndcg@20', 0.04314186051487923), ('ndcg@50', 0.048024702817201614), ('recall@5', 0.042933810502290726), ('recall@10', 0.05411449074745178), ('recall@20', 0.07110912352800369), ('recall@50', 0.09570661932229996)]), Training Time: 1.47 seconds
+Patience for 6 Times
+[Epoch 28] Metrics: OrderedDict([('ndcg@5', 0.035379957407712936), ('ndcg@10', 0.03908903896808624), ('ndcg@20', 0.04300491884350777), ('ndcg@50', 0.047995273023843765), ('recall@5', 0.042486581951379776), ('recall@10', 0.05411449074745178), ('recall@20', 0.06976744532585144), ('recall@50', 0.09481216222047806)]), Training Time: 1.35 seconds
+Patience for 7 Times
+[Epoch 29] Metrics: OrderedDict([('ndcg@5', 0.035741884261369705), ('ndcg@10', 0.03877341374754906), ('ndcg@20', 0.043228741735219955), ('ndcg@50', 0.04820360615849495), ('recall@5', 0.043381039053201675), ('recall@10', 0.05277280882000923), ('recall@20', 0.0702146664261818), ('recall@50', 0.09570661932229996)]), Training Time: 1.58 seconds
+Patience for 8 Times
+[Epoch 30] Metrics: OrderedDict([('ndcg@5', 0.03539241477847099), ('ndcg@10', 0.03827061876654625), ('ndcg@20', 0.04257388785481453), ('ndcg@50', 0.047274209558963776), ('recall@5', 0.043381039053201675), ('recall@10', 0.05232558026909828), ('recall@20', 0.06932021677494049), ('recall@50', 0.09302325546741486)]), Training Time: 1.38 seconds
+Patience for 9 Times
+[Epoch 31] Metrics: OrderedDict([('ndcg@5', 0.035719871520996094), ('ndcg@10', 0.03897299990057945), ('ndcg@20', 0.042839325964450836), ('ndcg@50', 0.04764152318239212), ('recall@5', 0.043381039053201675), ('recall@10', 0.05366726219654083), ('recall@20', 0.06887298822402954), ('recall@50', 0.09302325546741486)]), Training Time: 1.49 seconds
+Patience for 10 Times
+Early stopping at epoch 31
+Best epoch: 21, Best val score: 0.044722720980644226
+Average training time per epoch: 1.48 seconds
+Total training time: 45.73 seconds (0.76 minutes)
+Loaded best model checkpoint from ckpt/PDSRec-main.py_--model=GRU4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_14-27-59-66781a.pth
+
+==================================================
+Testing model on test dataset with timing...
+Test Results: OrderedDict([('ndcg@5', 0.024968918412923813), ('ndcg@10', 0.028824685141444206), ('ndcg@20', 0.032310135662555695), ('ndcg@50', 0.03769895061850548), ('recall@5', 0.0312919095158577), ('recall@10', 0.04336164519190788), ('recall@20', 0.0572194904088974), ('recall@50', 0.0844881534576416)])
+Average inference time per sample: 0.0001 seconds
+Total inference time for 2237 samples: 0.21 seconds
+Theoretical throughput: 10699.43 users/second
+Average training time per epoch: 1.48 seconds
+==================================================
+
+Test Results: OrderedDict([('ndcg@5', 0.024968918412923813), ('ndcg@10', 0.028824685141444206), ('ndcg@20', 0.032310135662555695), ('ndcg@50', 0.03769895061850548), ('recall@5', 0.0312919095158577), ('recall@10', 0.04336164519190788), ('recall@20', 0.0572194904088974), ('recall@50', 0.0844881534576416)])

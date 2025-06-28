@@ -1,0 +1,23 @@
+2025-06-28 15:18:39,533 INFO    MainThread:73643 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-06-28 15:18:39,534 INFO    MainThread:73643 [wandb_setup.py:_flush():67] Configure stats pid to 73643
+2025-06-28 15:18:39,534 INFO    MainThread:73643 [wandb_setup.py:_flush():67] Loading settings from /Users/jinchai/.config/wandb/settings
+2025-06-28 15:18:39,534 INFO    MainThread:73643 [wandb_setup.py:_flush():67] Loading settings from /Users/jinchai/MQ/Experiment/6服务器实验/TAGDiff/wandb/settings
+2025-06-28 15:18:39,534 INFO    MainThread:73643 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-06-28 15:18:39,534 INFO    MainThread:73643 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/jinchai/MQ/Experiment/6服务器实验/TAGDiff/wandb/run-20250628_151839-1buyidfv/logs/debug.log
+2025-06-28 15:18:39,534 INFO    MainThread:73643 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/jinchai/MQ/Experiment/6服务器实验/TAGDiff/wandb/run-20250628_151839-1buyidfv/logs/debug-internal.log
+2025-06-28 15:18:39,535 INFO    MainThread:73643 [wandb_init.py:init():761] calling init triggers
+2025-06-28 15:18:39,535 INFO    MainThread:73643 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-06-28 15:18:39,535 INFO    MainThread:73643 [wandb_init.py:init():784] starting backend
+2025-06-28 15:18:39,535 INFO    MainThread:73643 [wandb_init.py:init():788] sending inform_init request
+2025-06-28 15:18:39,578 INFO    MainThread:73643 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-06-28 15:18:39,578 INFO    MainThread:73643 [wandb_init.py:init():798] backend started and connected
+2025-06-28 15:18:39,585 INFO    MainThread:73643 [wandb_init.py:init():891] updated telemetry
+2025-06-28 15:18:39,603 INFO    MainThread:73643 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-06-28 15:18:40,207 INFO    MainThread:73643 [wandb_init.py:init():990] starting run threads in backend
+2025-06-28 15:18:40,529 INFO    MainThread:73643 [wandb_run.py:_console_start():2375] atexit reg
+2025-06-28 15:18:40,529 INFO    MainThread:73643 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-06-28 15:18:40,529 INFO    MainThread:73643 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-06-28 15:18:40,529 INFO    MainThread:73643 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-06-28 15:18:40,532 INFO    MainThread:73643 [wandb_init.py:init():1032] run started, returning control to user process
+2025-06-28 15:18:40,536 INFO    MainThread:73643 [wandb_run.py:_config_callback():1261] config_cb None None {'model': 'BertSASRec', 'num_proc': 1, 'cache_dir': 'cache/', 'log_dir': 'logs/', 'tensorboard_log_dir': 'tensorboard/', 'ckpt_dir': 'ckpt/', 'run_id': 'PDSRec', 'rand_seed': 2024, 'reproducibility': True, 'max_seq_length': 10, 'train_batch_size': 256, 'eval_batch_size': 32, 'lr': 0.001, 'weight_decay': 0.0, 'warmup_steps': 10000, 'steps': None, 'epochs': 150, 'max_grad_norm': 1.0, 'eval_interval': 1, 'patience': 10, 'save_embeddings': True, 'topk': [5, 10, 20, 50], 'metrics': ['ndcg', 'recall'], 'val_metric': 'recall@5', 'save': True, 'loss_type': 'ce', 'hidden_size': 64, 'maxlen': 200, 'num_blocks': 2, 'num_heads': 1, 'dropout': 0.1, 'initializer_range': 0.02, 'num_negatives': 1, 'sample_func': 'random', 'single_domain': 'B', 'sd': 'B', 'td': 'B', 'exp_type': 'srec', 'encoding_type': 'RFF', 'sigma': None, 'predict': 'N', 'single_domain_mode': True, 'ab': 'iids', 'partition': 'split', 'run_local_time': 'Jun-28-2025_15-18-30', 'device': 'cpu', 'use_ddp': False, 'source_dict': {'B': 'Beauty'}, 'min_timestamp': 12403, 'max_timestamp': 16274, 'range_timestamp': 3871, 'select_pool': [1, 12102], 'item_num': 12101, 'eos_token': 12102}

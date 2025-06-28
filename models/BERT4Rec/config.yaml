@@ -1,0 +1,15 @@
+lr: 0.001
+loss_type: ce
+
+# BERT4Rec specific parameters
+hidden_size: 64
+num_hidden_layers: 2
+num_heads: 2
+dropout: 0.1
+intermediate_size: 256
+
+# Masked Language Model parameters
+mlm_probability: 0.2
+
+# Sampling function for compatibility with PreferDiff
+sample_func: random

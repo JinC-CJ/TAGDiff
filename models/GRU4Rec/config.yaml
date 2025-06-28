@@ -1,0 +1,15 @@
+# GRU4Rec Model Configuration
+lr: 0.001
+loss_type: ce
+
+# Model architecture parameters
+hidden_size: 64
+num_layers: 1
+dropout: 0.1
+
+# Training parameters
+sample_func: random
+
+# Additional GRU-specific parameters
+# These can be adjusted based on your experiments
+embedding_dim: 64  # Same as hidden_size for consistency

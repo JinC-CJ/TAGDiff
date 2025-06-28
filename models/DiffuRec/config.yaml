@@ -1,0 +1,21 @@
+# DiffuRec模型配置
+lr: 0.001
+loss_type: ce  # 使用交叉熵损失
+
+# 模型结构参数
+hidden_size: 128
+num_blocks: 4  # Transformer块数量
+num_heads: 2   # 注意力头数量
+dropout: 0.1
+emb_dropout: 0.3
+
+# 扩散模型参数
+schedule_sampler_name: "lossaware"  # 扩散时间步采样策略
+diffusion_steps: 32                 # 扩散步数
+noise_schedule: "trunc_lin"         # beta生成策略
+lambda_uncertainty: 0.001           # 不确定性权重
+rescale_timesteps: True             # 是否重新缩放时间步
+loss_lambda: 0.001                  # 扩散损失权重
+
+# 训练参数
+sample_func: "random"  # 负样本采样策略

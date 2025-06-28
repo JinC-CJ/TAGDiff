@@ -1,0 +1,16 @@
+{"time":"2025-06-28T14:28:06.428935+10:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/jinchai/MQ/Experiment/6服务器实验/TAGDiff/wandb/run-20250628_142806-lpnkfkfd/logs/debug-core.log"}
+{"time":"2025-06-28T14:28:06.540146+10:00","level":"INFO","msg":"created new stream","id":"lpnkfkfd"}
+{"time":"2025-06-28T14:28:06.540238+10:00","level":"INFO","msg":"stream: started","id":"lpnkfkfd"}
+{"time":"2025-06-28T14:28:06.540324+10:00","level":"INFO","msg":"handler: started","stream_id":"lpnkfkfd"}
+{"time":"2025-06-28T14:28:06.540463+10:00","level":"INFO","msg":"writer: Do: started","stream_id":"lpnkfkfd"}
+{"time":"2025-06-28T14:28:06.540565+10:00","level":"INFO","msg":"sender: started","stream_id":"lpnkfkfd"}
+{"time":"2025-06-28T14:28:07.426428+10:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-28T14:29:24.925128+10:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-28T14:29:24.927166+10:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-28T14:29:25.960976+10:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.3002395,"progress":"2.3KB/2.3KB"}],"total_operations":1}}
+{"time":"2025-06-28T14:29:25.98205+10:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-28T14:29:26.501583+10:00","level":"INFO","msg":"stream: closing","id":"lpnkfkfd"}
+{"time":"2025-06-28T14:29:26.501607+10:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lpnkfkfd"}
+{"time":"2025-06-28T14:29:26.501822+10:00","level":"INFO","msg":"handler: closed","stream_id":"lpnkfkfd"}
+{"time":"2025-06-28T14:29:26.501914+10:00","level":"INFO","msg":"sender: closed","stream_id":"lpnkfkfd"}
+{"time":"2025-06-28T14:29:26.501921+10:00","level":"INFO","msg":"stream: closed","id":"lpnkfkfd"}

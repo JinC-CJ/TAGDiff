@@ -1,0 +1,153 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.9.6
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+                - 71
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+                - 71
+            "3":
+                - 23
+                - 55
+            "4": 3.9.6
+            "5": 0.19.8
+            "6": 4.49.0
+            "8":
+                - 5
+            "12": 0.19.8
+            "13": darwin-arm64
+ab:
+    value: iids
+cache_dir:
+    value: cache/
+ckpt_dir:
+    value: ckpt/
+device:
+    value: cpu
+dropout:
+    value: 0.1
+encoding_type:
+    value: RFF
+eos_token:
+    value: 12102
+epochs:
+    value: 150
+eval_batch_size:
+    value: 32
+eval_interval:
+    value: 1
+exp_type:
+    value: srec
+hidden_size:
+    value: 64
+intermediate_size:
+    value: 256
+item_num:
+    value: 12101
+log_dir:
+    value: logs/
+loss_type:
+    value: ce
+lr:
+    value: 0.001
+max_grad_norm:
+    value: 1
+max_seq_length:
+    value: 10
+max_timestamp:
+    value: 16274
+metrics:
+    value:
+        - ndcg
+        - recall
+min_timestamp:
+    value: 12403
+mlm_probability:
+    value: 0.2
+model:
+    value: BERT4Rec
+num_heads:
+    value: 2
+num_hidden_layers:
+    value: 2
+num_proc:
+    value: 1
+partition:
+    value: split
+patience:
+    value: 10
+predict:
+    value: "N"
+rand_seed:
+    value: 2024
+range_timestamp:
+    value: 3871
+reproducibility:
+    value: true
+run_id:
+    value: PDSRec
+run_local_time:
+    value: Jun-28-2025_13-36-17
+sample_func:
+    value: random
+save:
+    value: true
+save_embeddings:
+    value: true
+sd:
+    value: B
+select_pool:
+    value:
+        - 1
+        - 12102
+sigma:
+    value: null
+single_domain:
+    value: B
+single_domain_mode:
+    value: true
+source_dict:
+    value:
+        B: Beauty
+steps:
+    value: null
+td:
+    value: B
+tensorboard_log_dir:
+    value: tensorboard/
+topk:
+    value:
+        - 5
+        - 10
+        - 20
+        - 50
+train_batch_size:
+    value: 256
+use_ddp:
+    value: false
+val_metric:
+    value: recall@5
+warmup_steps:
+    value: 10000
+weight_decay:
+    value: 0

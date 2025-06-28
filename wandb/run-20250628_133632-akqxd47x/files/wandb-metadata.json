@@ -1,0 +1,23 @@
+{
+  "os": "macOS-15.3.2-arm64-arm-64bit",
+  "python": "CPython 3.9.6",
+  "startedAt": "2025-06-28T03:36:32.526030Z",
+  "args": [
+    "--model=BERT4Rec",
+    "-s",
+    "B",
+    "--ab=iids",
+    "--partition=split"
+  ],
+  "program": "/Users/jinchai/MQ/Experiment/6服务器实验/TAGDiff/main.py",
+  "codePath": "6服务器实验/TAGDiff/main.py",
+  "git": {
+    "remote": "git@github.com:JinC-CJ/Diffusion-Model-HD.git",
+    "commit": "c2963ffcef21fdeabadd937254907e3fa00d0baf"
+  },
+  "email": "chaijin818818@gmail.com",
+  "root": "/Users/jinchai/MQ/Experiment/6服务器实验/TAGDiff",
+  "host": "JINs-Laptop.local",
+  "executable": "/Users/jinchai/MQ/Experiment/.venv/bin/python",
+  "codePathLocal": "main.py"
+}

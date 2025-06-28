@@ -1,0 +1,86 @@
+[Epoch 1] Metrics: OrderedDict([('ndcg@5', 0.010567042976617813), ('ndcg@10', 0.01323654968291521), ('ndcg@20', 0.016733145341277122), ('ndcg@50', 0.022032998502254486), ('recall@5', 0.01565295085310936), ('recall@10', 0.024150269106030464), ('recall@20', 0.03801431134343147), ('recall@50', 0.06484794616699219)]), Training Time: 22.62 seconds
+[Epoch 1] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 2] Metrics: OrderedDict([('ndcg@5', 0.009407931007444859), ('ndcg@10', 0.013125444762408733), ('ndcg@20', 0.016647811979055405), ('ndcg@50', 0.02423872984945774), ('recall@5', 0.01520572416484356), ('recall@10', 0.026833631098270416), ('recall@20', 0.041144900023937225), ('recall@50', 0.07960644364356995)]), Training Time: 20.14 seconds
+Patience for 1 Times
+[Epoch 3] Metrics: OrderedDict([('ndcg@5', 0.01390060968697071), ('ndcg@10', 0.017953338101506233), ('ndcg@20', 0.021812671795487404), ('ndcg@50', 0.029975181445479393), ('recall@5', 0.023703040555119514), ('recall@10', 0.03622540086507797), ('recall@20', 0.05187835544347763), ('recall@50', 0.0934704840183258)]), Training Time: 20.98 seconds
+[Epoch 3] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 4] Metrics: OrderedDict([('ndcg@5', 0.017604287713766098), ('ndcg@10', 0.022085078060626984), ('ndcg@20', 0.027254827320575714), ('ndcg@50', 0.03613448888063431), ('recall@5', 0.026833631098270416), ('recall@10', 0.040697675198316574), ('recall@20', 0.06127012521028519), ('recall@50', 0.10599284619092941)]), Training Time: 20.65 seconds
+[Epoch 4] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 5] Metrics: OrderedDict([('ndcg@5', 0.016742924228310585), ('ndcg@10', 0.02254152111709118), ('ndcg@20', 0.029236167669296265), ('ndcg@50', 0.03814425691962242), ('recall@5', 0.024597495794296265), ('recall@10', 0.042933810502290726), ('recall@20', 0.06976744532585144), ('recall@50', 0.11538461595773697)]), Training Time: 20.76 seconds
+Patience for 1 Times
+[Epoch 6] Metrics: OrderedDict([('ndcg@5', 0.021037140861153603), ('ndcg@10', 0.02516877092421055), ('ndcg@20', 0.030703509226441383), ('ndcg@50', 0.0406402051448822), ('recall@5', 0.03354204073548317), ('recall@10', 0.04651162773370743), ('recall@20', 0.06887298822402954), ('recall@50', 0.11896242946386337)]), Training Time: 22.55 seconds
+[Epoch 6] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 7] Metrics: OrderedDict([('ndcg@5', 0.019477467983961105), ('ndcg@10', 0.025385156273841858), ('ndcg@20', 0.03344178572297096), ('ndcg@50', 0.04235437139868736), ('recall@5', 0.029964221641421318), ('recall@10', 0.04830053821206093), ('recall@20', 0.0800536647439003), ('recall@50', 0.12522360682487488)]), Training Time: 21.69 seconds
+Patience for 1 Times
+[Epoch 8] Metrics: OrderedDict([('ndcg@5', 0.024775827303528786), ('ndcg@10', 0.03010941855609417), ('ndcg@20', 0.03657243400812149), ('ndcg@50', 0.0465402789413929), ('recall@5', 0.03533094748854637), ('recall@10', 0.05187835544347763), ('recall@20', 0.07781752943992615), ('recall@50', 0.12835420668125153)]), Training Time: 22.06 seconds
+[Epoch 8] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 9] Metrics: OrderedDict([('ndcg@5', 0.026204656809568405), ('ndcg@10', 0.03213125467300415), ('ndcg@20', 0.03954944759607315), ('ndcg@50', 0.04946701601147652), ('recall@5', 0.03622540086507797), ('recall@10', 0.05500894412398338), ('recall@20', 0.08497316390275955), ('recall@50', 0.13506260514259338)]), Training Time: 22.30 seconds
+[Epoch 9] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 10] Metrics: OrderedDict([('ndcg@5', 0.02588064596056938), ('ndcg@10', 0.03143466264009476), ('ndcg@20', 0.03872765600681305), ('ndcg@50', 0.04897253215312958), ('recall@5', 0.03667262941598892), ('recall@10', 0.05366726219654083), ('recall@20', 0.0827370285987854), ('recall@50', 0.13550983369350433)]), Training Time: 21.13 seconds
+[Epoch 10] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 11] Metrics: OrderedDict([('ndcg@5', 0.02712586522102356), ('ndcg@10', 0.03317810595035553), ('ndcg@20', 0.03886968642473221), ('ndcg@50', 0.0493813119828701), ('recall@5', 0.03935599327087402), ('recall@10', 0.058139536529779434), ('recall@20', 0.08050089329481125), ('recall@50', 0.13416816294193268)]), Training Time: 20.35 seconds
+[Epoch 11] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 12] Metrics: OrderedDict([('ndcg@5', 0.028003133833408356), ('ndcg@10', 0.033330898731946945), ('ndcg@20', 0.04021630063652992), ('ndcg@50', 0.0504123717546463), ('recall@5', 0.042486581951379776), ('recall@10', 0.059033989906311035), ('recall@20', 0.0863148495554924), ('recall@50', 0.13774597644805908)]), Training Time: 19.69 seconds
+[Epoch 12] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 13] Metrics: OrderedDict([('ndcg@5', 0.027562255039811134), ('ndcg@10', 0.033705975860357285), ('ndcg@20', 0.040686603635549545), ('ndcg@50', 0.05062275752425194), ('recall@5', 0.03980322182178497), ('recall@10', 0.059033989906311035), ('recall@20', 0.08676207810640335), ('recall@50', 0.13729874789714813)]), Training Time: 19.97 seconds
+Patience for 1 Times
+[Epoch 14] Metrics: OrderedDict([('ndcg@5', 0.02822537161409855), ('ndcg@10', 0.03374188393354416), ('ndcg@20', 0.0415826216340065), ('ndcg@50', 0.05142243579030037), ('recall@5', 0.040250446647405624), ('recall@10', 0.057245079427957535), ('recall@20', 0.0881037563085556), ('recall@50', 0.13819320499897003)]), Training Time: 20.65 seconds
+Patience for 2 Times
+[Epoch 15] Metrics: OrderedDict([('ndcg@5', 0.02790168486535549), ('ndcg@10', 0.03567689284682274), ('ndcg@20', 0.042839180678129196), ('ndcg@50', 0.051795925945043564), ('recall@5', 0.038908764719963074), ('recall@10', 0.06305903196334839), ('recall@20', 0.09123434871435165), ('recall@50', 0.13685151934623718)]), Training Time: 25.78 seconds
+Patience for 3 Times
+[Epoch 16] Metrics: OrderedDict([('ndcg@5', 0.02747509628534317), ('ndcg@10', 0.032872747629880905), ('ndcg@20', 0.04129650816321373), ('ndcg@50', 0.051075246185064316), ('recall@5', 0.03756708279252052), ('recall@10', 0.054561715573072433), ('recall@20', 0.08765652775764465), ('recall@50', 0.13640429079532623)]), Training Time: 24.95 seconds
+Patience for 4 Times
+[Epoch 17] Metrics: OrderedDict([('ndcg@5', 0.028092609718441963), ('ndcg@10', 0.03491389378905296), ('ndcg@20', 0.041146498173475266), ('ndcg@50', 0.05074263736605644), ('recall@5', 0.042486581951379776), ('recall@10', 0.06350626051425934), ('recall@20', 0.0881037563085556), ('recall@50', 0.13685151934623718)]), Training Time: 22.83 seconds
+Patience for 5 Times
+[Epoch 18] Metrics: OrderedDict([('ndcg@5', 0.029978787526488304), ('ndcg@10', 0.03629918396472931), ('ndcg@20', 0.04304540529847145), ('ndcg@50', 0.053715046495199203), ('recall@5', 0.04382826387882233), ('recall@10', 0.06350626051425934), ('recall@20', 0.0907871201634407), ('recall@50', 0.1449016034603119)]), Training Time: 22.22 seconds
+[Epoch 18] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 19] Metrics: OrderedDict([('ndcg@5', 0.03155757486820221), ('ndcg@10', 0.03749532252550125), ('ndcg@20', 0.044269662350416183), ('ndcg@50', 0.0546620711684227), ('recall@5', 0.04382826387882233), ('recall@10', 0.06261180341243744), ('recall@20', 0.0889982134103775), ('recall@50', 0.14177101850509644)]), Training Time: 20.66 seconds
+Patience for 1 Times
+[Epoch 20] Metrics: OrderedDict([('ndcg@5', 0.03022070787847042), ('ndcg@10', 0.03589927777647972), ('ndcg@20', 0.043985139578580856), ('ndcg@50', 0.052780646830797195), ('recall@5', 0.042039357125759125), ('recall@10', 0.059928443282842636), ('recall@20', 0.09212879836559296), ('recall@50', 0.13685151934623718)]), Training Time: 19.87 seconds
+Patience for 2 Times
+[Epoch 21] Metrics: OrderedDict([('ndcg@5', 0.0304710790514946), ('ndcg@10', 0.03560015559196472), ('ndcg@20', 0.04254287853837013), ('ndcg@50', 0.052071571350097656), ('recall@5', 0.044275492429733276), ('recall@10', 0.060375671833753586), ('recall@20', 0.0881037563085556), ('recall@50', 0.13640429079532623)]), Training Time: 20.08 seconds
+[Epoch 21] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 22] Metrics: OrderedDict([('ndcg@5', 0.030561676248908043), ('ndcg@10', 0.03663402050733566), ('ndcg@20', 0.04244544729590416), ('ndcg@50', 0.051989149302244186), ('recall@5', 0.043381039053201675), ('recall@10', 0.06216457858681679), ('recall@20', 0.0854203924536705), ('recall@50', 0.13416816294193268)]), Training Time: 19.92 seconds
+Patience for 1 Times
+[Epoch 23] Metrics: OrderedDict([('ndcg@5', 0.029395416378974915), ('ndcg@10', 0.03611955791711807), ('ndcg@20', 0.04260990396142006), ('ndcg@50', 0.05346738174557686), ('recall@5', 0.040250446647405624), ('recall@10', 0.06082289665937424), ('recall@20', 0.08676207810640335), ('recall@50', 0.14221824705600739)]), Training Time: 19.73 seconds
+Patience for 2 Times
+[Epoch 24] Metrics: OrderedDict([('ndcg@5', 0.029655572026968002), ('ndcg@10', 0.035522449761629105), ('ndcg@20', 0.04351409524679184), ('ndcg@50', 0.05240578204393387), ('recall@5', 0.042039357125759125), ('recall@10', 0.060375671833753586), ('recall@20', 0.09212879836559296), ('recall@50', 0.13685151934623718)]), Training Time: 20.22 seconds
+Patience for 3 Times
+[Epoch 25] Metrics: OrderedDict([('ndcg@5', 0.03038070909678936), ('ndcg@10', 0.03594217076897621), ('ndcg@20', 0.04102930426597595), ('ndcg@50', 0.050746817141771317), ('recall@5', 0.04561717435717583), ('recall@10', 0.06305903196334839), ('recall@20', 0.08318425714969635), ('recall@50', 0.13237924873828888)]), Training Time: 19.78 seconds
+[Epoch 25] Saved checkpoint to ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+[Epoch 26] Metrics: OrderedDict([('ndcg@5', 0.02977903187274933), ('ndcg@10', 0.03649548813700676), ('ndcg@20', 0.04347575828433037), ('ndcg@50', 0.052160974591970444), ('recall@5', 0.041144900023937225), ('recall@10', 0.06216457858681679), ('recall@20', 0.0898926630616188), ('recall@50', 0.13372093439102173)]), Training Time: 19.85 seconds
+Patience for 1 Times
+[Epoch 27] Metrics: OrderedDict([('ndcg@5', 0.028897587209939957), ('ndcg@10', 0.034536488354206085), ('ndcg@20', 0.04070022702217102), ('ndcg@50', 0.05000878497958183), ('recall@5', 0.041144900023937225), ('recall@10', 0.058586761355400085), ('recall@20', 0.08318425714969635), ('recall@50', 0.13014310598373413)]), Training Time: 20.53 seconds
+Patience for 2 Times
+[Epoch 28] Metrics: OrderedDict([('ndcg@5', 0.027660250663757324), ('ndcg@10', 0.03400595858693123), ('ndcg@20', 0.0407039113342762), ('ndcg@50', 0.050805386155843735), ('recall@5', 0.03935599327087402), ('recall@10', 0.059033989906311035), ('recall@20', 0.0854203924536705), ('recall@50', 0.13685151934623718)]), Training Time: 19.66 seconds
+Patience for 3 Times
+[Epoch 29] Metrics: OrderedDict([('ndcg@5', 0.028323693200945854), ('ndcg@10', 0.03540037199854851), ('ndcg@20', 0.04224468767642975), ('ndcg@50', 0.05145126208662987), ('recall@5', 0.03801431134343147), ('recall@10', 0.059928443282842636), ('recall@20', 0.0872092992067337), ('recall@50', 0.13372093439102173)]), Training Time: 20.56 seconds
+Patience for 4 Times
+[Epoch 30] Metrics: OrderedDict([('ndcg@5', 0.027783455327153206), ('ndcg@10', 0.03381241485476494), ('ndcg@20', 0.041038911789655685), ('ndcg@50', 0.05041755735874176), ('recall@5', 0.038908764719963074), ('recall@10', 0.057692307978868484), ('recall@20', 0.0863148495554924), ('recall@50', 0.13372093439102173)]), Training Time: 19.77 seconds
+Patience for 5 Times
+[Epoch 31] Metrics: OrderedDict([('ndcg@5', 0.027611009776592255), ('ndcg@10', 0.03357470780611038), ('ndcg@20', 0.03987360745668411), ('ndcg@50', 0.05039891228079796), ('recall@5', 0.03980322182178497), ('recall@10', 0.058139536529779434), ('recall@20', 0.08318425714969635), ('recall@50', 0.13640429079532623)]), Training Time: 19.95 seconds
+Patience for 6 Times
+[Epoch 32] Metrics: OrderedDict([('ndcg@5', 0.029374198988080025), ('ndcg@10', 0.033954720944166183), ('ndcg@20', 0.04132695496082306), ('ndcg@50', 0.05148102343082428), ('recall@5', 0.042039357125759125), ('recall@10', 0.056350626051425934), ('recall@20', 0.0854203924536705), ('recall@50', 0.13729874789714813)]), Training Time: 19.74 seconds
+Patience for 7 Times
+[Epoch 33] Metrics: OrderedDict([('ndcg@5', 0.029578469693660736), ('ndcg@10', 0.035307884216308594), ('ndcg@20', 0.040747277438640594), ('ndcg@50', 0.05088850110769272), ('recall@5', 0.041592128574848175), ('recall@10', 0.059481214731931686), ('recall@20', 0.08139535039663315), ('recall@50', 0.13237924873828888)]), Training Time: 20.03 seconds
+Patience for 8 Times
+[Epoch 34] Metrics: OrderedDict([('ndcg@5', 0.02905919775366783), ('ndcg@10', 0.034118834882974625), ('ndcg@20', 0.04012465104460716), ('ndcg@50', 0.04990481585264206), ('recall@5', 0.03935599327087402), ('recall@10', 0.05500894412398338), ('recall@20', 0.07871198654174805), ('recall@50', 0.12835420668125153)]), Training Time: 19.61 seconds
+Patience for 9 Times
+[Epoch 35] Metrics: OrderedDict([('ndcg@5', 0.028751078993082047), ('ndcg@10', 0.03456921502947807), ('ndcg@20', 0.04018523916602135), ('ndcg@50', 0.049784138798713684), ('recall@5', 0.040697675198316574), ('recall@10', 0.059033989906311035), ('recall@20', 0.08139535039663315), ('recall@50', 0.13014310598373413)]), Training Time: 20.21 seconds
+Patience for 10 Times
+Early stopping at epoch 35
+Best epoch: 25, Best val score: 0.04561717435717583
+Average training time per epoch: 20.90 seconds
+Total training time: 731.48 seconds (12.19 minutes)
+Loaded best model checkpoint from ckpt/PDSRec-main.py_--model=BERT4Rec_-s_B_--ab=iids_--partition=split-Jun-28-2025_13-43-25-58361f.pth
+
+==================================================
+Testing model on test dataset with timing...
+Test Results: OrderedDict([('ndcg@5', 0.01713719591498375), ('ndcg@10', 0.021964387968182564), ('ndcg@20', 0.029372435063123703), ('ndcg@50', 0.03945624828338623), ('recall@5', 0.0272686630487442), ('recall@10', 0.042020563036203384), ('recall@20', 0.07152435928583145), ('recall@50', 0.12248547375202179)])
+Average inference time per sample: 0.0005 seconds
+Total inference time for 2237 samples: 1.08 seconds
+Theoretical throughput: 2079.00 users/second
+Average training time per epoch: 20.90 seconds
+==================================================
+
+Test Results: OrderedDict([('ndcg@5', 0.01713719591498375), ('ndcg@10', 0.021964387968182564), ('ndcg@20', 0.029372435063123703), ('ndcg@50', 0.03945624828338623), ('recall@5', 0.0272686630487442), ('recall@10', 0.042020563036203384), ('recall@20', 0.07152435928583145), ('recall@50', 0.12248547375202179)])
