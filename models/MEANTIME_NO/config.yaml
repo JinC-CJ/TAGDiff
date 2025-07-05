@@ -1,0 +1,63 @@
+
+# Model identifier
+_model: MEANTIME
+
+# Basic model parameters
+item_num: 7407                   # Number of items (will be overridden by dataset)
+hidden_size: 64                  # Hidden dimension size
+max_seq_length: 10             # Maximum sequence length
+num_blocks: 2                   # Number of transformer blocks
+num_heads: 2                    # Number of attention heads
+dropout: 0.2                    # Dropout rate
+
+# MEANTIME-specific temporal kernel configuration
+# Absolute temporal kernels (applied to each position)
+# - 'p': Position embedding
+# - 'd': Day embedding  
+# - 'c': Constant embedding
+absolute_kernel_types: 'p-d'    # Use position and day embeddings
+
+# Relative temporal kernels (applied between positions)
+# - 's': Sinusoidal time difference
+# - 'e': Exponential time difference
+# - 'l': Log1p time difference
+relative_kernel_types: 's-l'    # Use sinusoidal and log1p embeddings
+
+# Time processing parameters
+time_unit_divide: 1             # Divisor for time units (1 = use raw timestamps)
+freq: 10000                     # Frequency for sinusoidal encoding
+num_days: 732                   # Maximum number of days for day embedding (2 years)
+
+# Model initialization
+model_init_range: 0.02          # Range for weight initialization
+model_init_seed: 0              # Random seed for initialization
+
+# Output head configuration
+head_use_ln: true               # Use LayerNorm before output projection
+output_info: false              # Whether to output additional info
+
+# Training parameters
+loss_type: 'ce'                 # Loss type: 'ce' (cross-entropy)
+batch_size: 256                 # Training batch size
+lr: 0.001                       # Learning rate
+weight_decay: 0.0               # Weight decay
+optimizer: 'Adam'               # Optimizer type
+# Data requirements
+# MEANTIME requires both item sequences and timestamp sequences
+# The dataloader should provide:
+# - item_seqs: Item ID sequences
+# - timestamps_seqs: Timestamp sequences (in days from start)
+# - days_seqs: Day sequences (optional, can be derived from timestamps)
+# - seq_lengths: Actual sequence lengths
+
+# Example timestamp formats:
+# - timestamps_seqs: Unix timestamps converted to days (integers)
+# - norm_timestamps_seqs: Normalized timestamps for certain kernels
+
+# Notes on kernel combinations:
+# 1. At least one kernel type must be specified
+# 2. Common effective combinations:
+#    - 'p-d' + 's-l': Position+Day absolute, Sinusoidal+Log relative
+#    - 'p' + 's': Simple position + sinusoidal time
+#    - 'p-d-c' + 's-e-l': All kernels (most expressive but slower)
+# 3. The hidden_size must be divisible by total number of kernels (La + Lr)

@@ -1,0 +1,22 @@
+# TiSASRec Model Configuration
+
+# Training parameters (likely already defined in default.yaml)
+lr: 0.001
+weight_decay: 0.0
+
+# TiSASRec specific parameters
+num_blocks: 2        # Number of transformer blocks
+num_heads: 1         # Number of attention heads
+time_span: 256       # Maximum time interval to consider
+
+# These parameters might already be defined in default.yaml:
+hidden_size: 64    # Hidden dimension size
+dropout: 0.2       # Dropout rate
+max_seq_length: 10 # Maximum sequence length
+
+# Loss and sampling configuration
+loss_type: ce        # Cross-entropy loss
+sample_func: random  # Sampling function for compatibility
+
+# Additional TiSASRec specific settings
+l2_emb: 0.00005     # L2 regularization for embeddings (if needed)

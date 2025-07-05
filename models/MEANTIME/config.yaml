@@ -1,0 +1,15 @@
+model_name: MEANTIME
+hidden_size: 64
+max_seq_length: 10
+dropout_prob: 0.2
+num_layers: 2
+num_heads: 2
+mask_prob: 0.2
+absolute_kernel_types: "p"
+relative_kernel_types: "s"
+num_items: 1000
+num_users: 1000
+select_pool: [1, 1000]
+learning_rate: 0.001
+batch_size: 256
+num_epochs: 100
